@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/cartGral.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Pasteleria AQUA</title>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-navbar" id="menu">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light fs-1 fw-bold" href="../index.html">
+                    <span class="title-span">A</span>Q<span class="title-span">U</span>A</a>
+                <button class="navbar-toggler d-flex justify-content-center align-items-center" id="linesNav"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#F249A6" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse d-flex-navbar" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 menu">
+                        <li
+                            class="nav-item d-flex d-md-block justify-content-center align-items-center my-2 my-md-0 me-md-2">
+                            <a class="navLink active-nav" aria-current="page" href="#">Inicio</a>
+                        </li>
+
+                        <li
+                            class="nav-item d-flex d-md-block justify-content-center align-items-center mb-2 mb-md-0 me-md-2">
+                            <a class="navLink" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li
+                            class="nav-item d-flex d-md-block justify-content-center align-items-center mb-2 mb-md-0 me-md-2">
+                            <a class="navLink" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li
+                            class="nav-item d-flex d-md-block justify-content-center align-items-center mb-2 mb-md-0 me-md-2">
+                            <a class="navLink" href="./pages/galeria.html">Galeria</a>
+                        </li>
+
+                        <li
+                            class="nav-item d-flex d-md-block justify-content-center align-items-center mb-2 mb-md-0 me-md-2">
+                            <a class="navLink" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li
+                            class="nav-item d-flex d-md-block justify-content-center align-items-center mb-2 mb-md-0 me-md-2">
+                            <a class="navLink text-center" href="./pages/carrito.html">
+                                Carrito
+                                <span class="cartCounter">
+                                    <span id="cartCounter"></span>
+                                </span>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="image1"></div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="image2"></div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="image3"></div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="d-flex justify-content-center flex-column align-items-center">
+            <section class="my-4 col-12 col-md-6 d-flex justify-content-center flex-column align-items-center">
+                <h2 class="p-3 fs-2 border-3">Un poco de nosotros!</h2>
+                <p class="p-3 text-center fs-6">
+                    AQUA es un emprendimiento iniciado por Profesionales Gastronómicos egresados en Gato Dumas Colegio
+                    Gastronómico, inspirado en una Pastelería Artesanal contemporánea, que en un principio se
+                    especializó únicamente en tortas
+                </p>
+                <p class="text-center fs-6">
+                    Si queres saber mas de nosotros haz
+                    <a href="./pages/nosotros.html" class="link__call">click aqui!</a>
+                </p>
+            </section>
+
+
+            <section class="my-4 col-12 col-md-6 d-flex justify-content-center flex-column align-items-center">
+                <h2 class="p-3 fs-2 border-3">Nuestros productos!</h2>
+
+                <div class="d-flex flex-column flex-md-row gap-5 justify-content-evenly align-items-center">
+                    <img class="producto__index" src="../img/pastel1.jpg" alt="">
+                    <img class="producto__index" src="../img/pastel2.jpg" alt="">
+                    <img class="producto__index" src="../img/pastel3.jpg" alt="">
+                </div>
+
+                <p class="text-center fs-6 mt-3">
+                    Si queres ver mas cosas ricas haz
+                    <a href="./pages/galeria.html" class="link__call">click aqui!</a>
+                </p>
+            </section>
+
+            <!-- MAPA-->
+
+
+            <section class="ubicacion my-4" id="equipo">
+                <div>
+                    <h2 class="mb-3 fs-2">NUESTRA UBICACION</h2>
+                    <div class="map d-flex justify-content-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.435946764354!2d-60.64173521558218!3d-32.96589842825314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7aba855da56c7%3A0x2322b13f0c5f4963!2sBuenos%20Aires%202366%2C%20S2000%20FQT%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1653668177325!5m2!1ses-419!2sar"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="contenido__article"></iframe>
+                    </div>
+                </div>
+
+
+                <p class="text-center fs-6 mt-3">
+                    Si queres contactarnos, podes hacerlo haciendo
+                    <a href="./pages/contacto.html" class="link__call">click aqui!</a>
+                </p>
+            </section>
+        </div>
+    </main>
+    <!--FOOTER-->
+
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap flex-column flex-md-row">
+        <div class="col-6 pt-5 pt-md-0 d-flex justify-content-center align-items-center flex-column px-5 pb-3 pb-md-0">
+            <nav style="--bs-breadcrumb-divider: '>';" class="mb-0 pb-0" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#" id="anterior">Inicio</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col-6 d-flex justify-content-center flex-column px-5 pb-3 pb-md-0">
+            <p class="fs-5 px-3">Redes</p>
+            <div id="iconos" class=" d-flex justify-content-center">
+                <a href="https://www.facebook.com/profile.php?id=100009404740121" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://twitter.com/JerExZ13" target="_blank">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://instagram.com/jeree_ramos/" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCQdajP34r8NprzeRT25T0CA" target="_blank">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

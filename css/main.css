@@ -1,0 +1,417 @@
+/* Color Theme Swatches in Hex */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@400;500;700&display=swap");
+/* Borders */
+.letraChica {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.letraMedia {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.letraGrande {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+iframe {
+  max-width: 100%;
+  display: block;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-family: "Bungee", cursive;
+  overflow-x: hidden;
+  background-color: #F299D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*=========================QUIENES SOMOS================================*/
+.quienes-somos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+/*=========================SLIDER================================*/
+.especialidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.especialidades .carouser-inner {
+  max-height: 39rem;
+}
+
+/*=========================UBICACION================================*/
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto auto 30px auto;
+}
+.ubicacion iframe {
+  width: 100%;
+}
+.ubicacion h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  max-height: 40vh;
+  object-fit: cover;
+}
+
+.image1,
+.image2,
+.image3 {
+  background-image: url("https://w.wallhaven.cc/full/6k/wallhaven-6kmw9x.jpg");
+  width: 100vw;
+  height: 40vh;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.image2 {
+  background-image: url("https://w.wallhaven.cc/full/4l/wallhaven-4ljqwp.jpg");
+}
+
+.image3 {
+  background-image: url("../../img/wallhaven-oxzgo7.jpg");
+}
+
+.producto__index {
+  width: 20rem;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: #735340;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #F249A6;
+}
+
+.link__call {
+  color: #F249A6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .image1,
+.image2,
+.image3 {
+    background-size: cover;
+  }
+}
+/*=========================NAVBAR================================*/
+.menu li .navLink {
+  display: flex;
+  color: #F249A6;
+  text-decoration: none;
+  padding: 0px 20px;
+  text-align: center;
+  transition: ease-out 0.2s;
+  border-radius: 20px;
+}
+.menu li .navLink:hover {
+  background-color: #F2BA52;
+  color: #735340;
+  transition: ease-in 0.2s;
+  border-radius: 20px;
+}
+
+.active-nav {
+  border-radius: 20px;
+  background-color: #F2BA52;
+  color: black;
+}
+
+.title-span {
+  color: #F249A6;
+}
+
+.bg-navbar {
+  background-color: #735340;
+  background-image: #F249A6;
+}
+
+.d-flex-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+/*=========================FOOTER================================*/
+footer {
+  background-color: #735340;
+  min-height: 100px;
+}
+footer p {
+  color: #F249A6;
+  text-align: center;
+}
+
+#iconos i, #iconos2 i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #F249A6;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #283040;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field::placeholder {
+  color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #283040;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #F249A6, #F299D3);
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #F249A6;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
+
+.text-area {
+  min-height: 300px;
+  max-height: 300px;
+  overflow-y: hidden;
+  min-width: 100%;
+}
+
+.text-area-label {
+  position: inherit;
+  font-size: 16px;
+}
+
+#anterior {
+  text-decoration: none;
+  color: #F249A6;
+  border-bottom: 1px solid black;
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.effect04 {
+  --changeDisplay: var(--smLinkDisplay, inline-flex);
+  display: var(--changeDisplay);
+  color: black;
+  outline: solid 2px white;
+  position: relative;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  background-color: #F299D3;
+}
+
+.effect04::before,
+.effect04 span {
+  margin: 0 auto;
+  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  transition-duration: 0.4s;
+}
+
+.effect04:hover {
+  background-color: #F249A6;
+}
+
+.effect04:hover span {
+  -webkit-transform: translateY(-400%) scale(-0.1, 20);
+  transform: translateY(-400%) scale(-0.1, 20);
+}
+
+.effect04::before {
+  content: attr(data-sm-link-text);
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: translateY(500%) scale(-0.1, 20);
+  transform: translateY(500%) scale(-0.1, 20);
+}
+
+.effect04:hover::before {
+  letter-spacing: 0.05em;
+  -webkit-transform: translateY(0) scale(1, 1);
+  transform: translateY(0) scale(1, 1);
+}
+
+.field {
+  width: 100%;
+}
+
+.navbar-toggler {
+  display: flex !important;
+}
+
+@media screen and (min-width: 768px) {
+  .field {
+    max-width: 60%;
+  }
+  .navbar-toggler {
+    display: none !important;
+  }
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%242, 73, 166, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  border: 2px solid #F249A6;
+}
+
+.btn-buy {
+  background-color: #F249A6 !important;
+}
+ /*# sourceMappingURL=main.css.map */

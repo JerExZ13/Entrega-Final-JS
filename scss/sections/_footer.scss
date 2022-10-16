@@ -1,0 +1,25 @@
+/*=========================FOOTER================================*/
+
+footer {
+    
+    
+    background-color: $clr-4;
+    min-height: 100px;
+    
+
+    p {
+        color: $clr-1;
+        text-align: center;
+    }
+}
+
+
+#iconos, #iconos2 {
+    i {
+        font-size: 26px;
+        padding: 0 8px;
+        color: $clr-1;
+
+    }
+
+}

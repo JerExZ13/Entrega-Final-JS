@@ -1,0 +1,62 @@
+/*=========================NAVBAR================================*/
+.menu {
+    li {
+        .navLink {
+            display: flex;
+            color: $clr-1;
+            text-decoration: none;
+            padding: 0px 20px;
+            text-align: center;
+            transition: ease-out .2s;
+            border-radius: 20px;
+            &:hover{
+                background-color: $clr-3;
+                color: $clr-4;
+                transition: ease-in .2s;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+.active-nav {
+    border-radius: 20px;
+    background-color: $clr-3;
+    color: black;
+}
+
+.title-span {
+    color: $clr-1;
+}
+
+.bg-navbar {
+    background-color: $clr-4;
+    background-image: $clr-1;
+
+}
+
+.d-flex-navbar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cartCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartCounter {
+    background-color: red;
+    width: 20px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

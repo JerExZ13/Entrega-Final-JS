@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+}
+
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(./fonts/Lato-Black.ttf);
+}
+
+
+.cartCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #cartCounter {
+    width: 20px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,34 @@
+/* Color Theme Swatches in Hex */
+$clr-1: #F249A6;
+$clr-2: #F299D3;
+$clr-3: #F2BA52;
+$clr-4: #735340;
+$clr-5: #BFA08E;
+
+
+
+$clr-white: #ffffff;
+$clr-black: #283040;
+$clr-yellow: #f2b705;
+$clr-bg: linear-gradient($clr-2, $clr-4);
+$clr-bg-header: #8b64b8;
+$clr-primary: #9274e5;
+$clr-secondary: #775032;
+$clr-tertiary: #5900b9;
+$clr-trans: #ffffff83;
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@400;500;700&display=swap");
+$clr-textos: #283040;
+$ff-poppins: "Poppins", sans-serif;
+$ff-alfa: "Alfa Slab One", cursive;
+
+/* Borders */
+$borderRadius: 0.25rem;
+
+// Colours form
+
+$primary: #F249A6;
+$secondary: #F299D3;
+$white: #fff;
+$gray: #283040;
